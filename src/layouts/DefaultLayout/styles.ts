@@ -9,6 +9,6 @@ export const LayoutContainer = styled.div`
   background-color: ${({ theme }) => theme['gray-800']};
   border-radius: 0.5rem;
 
-  display: grid;
-  align-content: flex-start;
+  display: flex;
+  flex-direction: column;
 `
