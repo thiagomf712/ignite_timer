@@ -1,6 +1,9 @@
+import { useCycles } from '../../contexts/CyclesContext'
 import { HistoryContainer, HistoryList, Status } from './styles'
 
 export function HistoryPage() {
+  const { cycles } = useCycles()
+
   return (
     <HistoryContainer>
       <h1>Meu histórico</h1>
